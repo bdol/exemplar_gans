@@ -8,6 +8,9 @@ We introduce a novel approach to in-painting where the identity of the object to
 
 # Celeb-ID Benchmark Dataset
 
+| ![](img/celeb_id_1.jpg)  |  ![](img/celeb_id_2.jpg) | ![](img/celeb_id_3.jpg)
+|:-:|:-:|:-:|
+
 In this repository, we provide a benchmark eye-inpainting dataset called Celeb-ID. We do not provide the images, but we include scripts to download, align, and process the images, which results in a dataset of over 100,000 images of roughly 17,000 different celebrities. To create the dataset, clone this repository, then run:
 
 ```
