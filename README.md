@@ -8,4 +8,31 @@ We introduce a novel approach to in-painting where the identity of the object to
 
 # Celeb-ID Benchmark Dataset
 
-In this repository, we provide a benchmark eye-inpainting dataset called Celeb-ID.
+In this repository, we provide a benchmark eye-inpainting dataset called Celeb-ID. We do not provide the images, but we include scripts to download, align, and process the images, which results in a dataset of over 100,000 images of roughly 17,000 different celebrities. To create the dataset, clone this repository, then run:
+
+```
+python src/download_pics.py
+python src/align.py 256
+```
+
+The aligned dataset will reside in `data/celeb_id_aligned`. The file `data/celeb_id_raw/data.json` is formatted as:
+
+```
+{
+  "celeb_a":
+    [
+      {"eye_left": {...}, "box_left": {...}, "eye_right": {...}, "box_right": {...}, "opened": ..., "closed": ..., "filename": "celeb_a-1.jpg"},
+      {"eye_left": {...}, "box_left": {...}, "eye_right": {...}, "box_right": {...}, "opened": ..., "closed": ..., "filename": "celeb_a-2.jpg"},
+      ...
+    ]
+  "celeb_id_b":
+    [
+      ...
+    ],
+  ...
+}
+
+```
+
+Each celebrity identity is a top-level key in the JSON file. The value for each celebrity is a list of images containing eye locations, boxes to remove from the image with a given height and width (where the box is centered on each eye location), detector values as to whether the eyes are open or closed, and a corresponding filename.
+
