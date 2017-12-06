@@ -1,4 +1,3 @@
-import argparse
 import os
 import urllib
 
@@ -10,17 +9,13 @@ def url_to_fname(url, out_dir):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Batch 2d-align faces')
-    parser.add_argument('url_file', type=str,
-                        help='Directory containing JPEG face images to align')
-    args = parser.parse_args()
-
+    url_file = './data/img_urls.txt'
     out_dir = './data/celeb_pics'
 
     if not os.path.isdir(out_dir):
         os.makedirs(out_dir)
 
-    with open(args.url_file, 'r') as f:
+    with open(url_file, 'r') as f:
         for line in f:
             url = line.strip()
             fname = url_to_fname(url, out_dir)
