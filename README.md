@@ -21,8 +21,16 @@ The aligned dataset will reside in `data/celeb_id_aligned`. The file `data/celeb
 {
   "celeb_a":
     [
-      {"eye_left": {...}, "box_left": {...}, "eye_right": {...}, "box_right": {...}, "opened": ..., "closed": ..., "filename": "celeb_a-1.jpg"},
-      {"eye_left": {...}, "box_left": {...}, "eye_right": {...}, "box_right": {...}, "opened": ..., "closed": ..., "filename": "celeb_a-2.jpg"},
+      {"eye_left": {...}, "box_left": {...}, 
+       "eye_right": {...}, "box_right": {...}, 
+       "opened": ..., 
+       "closed": ..., 
+       "filename": "celeb_a-1.jpg"},
+      {"eye_left": {...}, "box_left": {...}, 
+       "eye_right": {...}, "box_right": {...}, 
+       "opened": ..., 
+       "closed": ..., 
+       "filename": "celeb_a-2.jpg"},,
       ...
     ]
   "celeb_id_b":
