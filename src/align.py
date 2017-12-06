@@ -12,21 +12,18 @@ log_interval = 1000
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Batch 2d-align faces')
-    parser.add_argument('image_dir', type=str,
-                        help='Directory containing JPEG face images to align')
-    parser.add_argument('celeb_json', type=str,
-                        help='JSON file containing alignment parameters')
-    parser.add_argument('output_dir', type=str,
-                        help='Where to store the aligned faces and output'
-                             'JSON')
     parser.add_argument('output_size', type=int, default=256,
                         help='Final image size')
     args = parser.parse_args()
 
-    if not os.path.isdir(args.output_dir):
-        os.makedirs(args.output_dir)
+    celeb_json = './data/celeb_params.json'
+    image_dir = './data/celeb_id_raw'
+    output_dir = './data/celeb_id_aligned'
 
-    with open(args.celeb_json, 'r') as f:
+    if not os.path.isdir(output_dir):
+        os.makedirs(output_dir)
+
+    with open(celeb_json, 'r') as f:
         data = json.load(f)
 
     out_data = {}
@@ -34,18 +31,25 @@ if __name__ == '__main__':
     for c, (k, v) in enumerate(data.items()):
         if c % log_interval == 0:
             print('Processed {}/{}'.format(c, len(data)))
-            with open(os.path.join(args.output_dir, 'data.json'), 'w') as f:
+            with open(os.path.join(output_dir, 'data.json'), 'w') as f:
                 json.dump(out_data, f)
 
-        im_f = os.path.join(args.image_dir, k)
+        im_f = os.path.join(image_dir, k)
+        if not os.path.exists(im_f):
+            print('Could not find {}'.format(im_f))
+            continue
+
         im = cv2.imread(im_f)
+        if im is None:
+            print('Error reading {}'.format(im_f))
+            continue
 
         im, M = rotate(im, v, args.output_size)
         im, cx, cy = crop(im, v)
         im_h, _, _ = im.shape
         scale = float(args.output_size) / float(im_h)
-        # im = cv2.resize(im, (args.output_size, args.output_size),
-        #                 interpolation=cv2.INTER_CUBIC)
+        im = cv2.resize(im, (args.output_size, args.output_size),
+                        interpolation=cv2.INTER_CUBIC)
 
         out_v = {}
         out_v['filename'] = k
@@ -87,7 +91,7 @@ if __name__ == '__main__':
 
         out_data[g].append(out_v)
 
-        # cv2.imwrite(os.path.join(args.output_dir, k), im)
+        cv2.imwrite(os.path.join(output_dir, k), im)
 
-    with open(os.path.join(args.output_dir, 'data.json'), 'w') as f:
+    with open(os.path.join(output_dir, 'data.json'), 'w') as f:
         json.dump(out_data, f)
