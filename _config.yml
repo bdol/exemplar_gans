@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-slate
 
 ### content configuration ###
 title:       "Exemplar Generative Adversarial Networks (ExGANs)"
