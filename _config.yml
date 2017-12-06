@@ -1,1 +1,6 @@
 theme: jekyll-theme-slate
+
+### content configuration ###
+title:       "Exemplar Generative Adversarial Networks (ExGANs)"
+keywords:    "machine learning, gans, inpainting, eye opening"
+description: "Project page for ExGANs"
