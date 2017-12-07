@@ -12,7 +12,7 @@
     </a>
 </div>
 <div class="author">
-    <a href="https://cristiancanton.github.io/)" target="_blank">
+    <a href="https://www.linkedin.com/in/cristiancanton" target="_blank">
       <div class="authorphoto"><img src="https://raw.githubusercontent.com/bdol/exemplar_gans/master/img/CristianCara315x315.jpg"></div>
       <div>Cristian Canton Ferrer</div>
     </a>
