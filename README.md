@@ -30,9 +30,11 @@ We introduce a novel approach to in-painting where the identity of the object to
 ![](img/arch.png)
 
 <br><br><br>
-## Our results
-![](img/m_compare.png)
+## Results
+### Different GAN in-painting strategies
+
 A comparison between GAN in-painting strategies. The first column from the left is the original image, while the second column is the inpainting results from a [standard in-painting GAN](http://hi.cs.waseda.ac.jp/~iizuka/projects/completion/en/). The third and fourth columns show results from a reference-based and code-based ExGAN, respectively.
+![](img/m_compare.png)
 <br><br>
 
 ![](img/ours_v_patch_full.png)
