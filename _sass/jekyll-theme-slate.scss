@@ -382,6 +382,16 @@ Full-Width Styles
   margin-right:10px;
 }
 
+.banner_photo div {
+    position:relative;
+    width:100%;
+    background-position: center center;
+    background-size:cover;
+    left: 0;
+    top:0;
+    z-index: -999;
+}
+
 
 
 /*******************************************************************************
