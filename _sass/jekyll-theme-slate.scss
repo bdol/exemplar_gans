@@ -364,6 +364,25 @@ Full-Width Styles
   background: #212121;
 }
 
+#authors span
+{
+    margin : 0 10px;
+}
+
+.authorphoto img {
+  width: 140px;
+  border-radius: 140px;
+  margin-bottom: 10px;
+}
+
+.author {
+  display: inline-block;
+  width: 140px;
+  font-size : 15px;
+  text-align: center;
+  margin-right:10px;
+}
+
 
 
 /*******************************************************************************
