@@ -2,7 +2,7 @@
 
 ## Authors
 
-| ![Brian Dolhansky](https://static1.squarespace.com/static/51d342a0e4b0290bcc56387d/t/5a25a353e2c48393e585aae9/1512416083021/me.jpg)  |  ![Cristian Canton Ferrer](https://i.imgur.com/XR1kGQw.jpg)
+| ![Brian Dolhansky](https://static1.squarespace.com/static/51d342a0e4b0290bcc56387d/t/5a25a353e2c48393e585aae9/1512416083021/me.jpg)  |  ![Cristian Canton Ferrer](https://raw.githubusercontent.com/bdol/exemplar_gans/master/img/CaraCristian.jpg)
 |:-:|:-:|
 | [Brian Dolhansky](http://briandolhansky.com) | [Cristian Canton Ferrer](https://cristiancanton.github.io/)
 
