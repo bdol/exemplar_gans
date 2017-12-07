@@ -16,9 +16,10 @@ We introduce a novel approach to in-painting where the identity of the object to
 ## Our results
 ![](img/m_compare.png)
 A comparison between GAN in-painting strategies. The first column from the left is the original image, while the second column is the inpainting results from a [standard in-painting GAN](http://hi.cs.waseda.ac.jp/~iizuka/projects/completion/en/). The third and fourth columns show results from a reference-based and code-based ExGAN, respectively.
+<br><br>
 
 ![](img/ours_v_patch_full.png)
-A comparison between the current (industrial state of the art solution for eye opening)[https://www.google.com/search?q=photoshop+elements] and the results from an ExGAN. The first column is a reference image and the second column is the image to in-paint. The third column was generated with Photoshop Elements' eye-opening tool, and the last column shows the results of an ExGAN.
+A comparison between the current [industrial state of the art solution for eye opening](https://www.google.com/search?q=photoshop+elements) and the results from an ExGAN. The first column is a reference image and the second column is the image to in-paint. The third column was generated with Photoshop Elements' eye-opening tool, and the last column shows the results of an ExGAN.
 
 ## Celeb-ID Benchmark Dataset
 
