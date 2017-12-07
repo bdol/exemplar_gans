@@ -269,7 +269,6 @@ Full-Width Styles
 #forkme_banner {
   display: block;
   position: absolute;
-  height:200px;
   top:0;
   right: 10px;
   z-index: 10;
@@ -382,6 +381,16 @@ Full-Width Styles
   margin-right:10px;
 }
 
+.banner_img div {
+    position:relative;
+    height:200px;
+    width:100%;
+    background-position: center center;
+    background-size:cover;
+    left: 0;
+    top:0;
+    z-index: -999;
+}
 
 /*******************************************************************************
 Small Device Styles
