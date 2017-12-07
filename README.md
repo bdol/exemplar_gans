@@ -1,3 +1,4 @@
+<div style="background-image:url('https://raw.githubusercontent.com/bdol/exemplar_gans/master/img/celeb_banner.png'); ?>);"></div>
 
 
 <br><br>
