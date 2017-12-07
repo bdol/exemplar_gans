@@ -1,9 +1,6 @@
 ![](img/celeb_banner.png)
 
 <br><br>
-## Authors
-
-
 <div class="author">
     <a href="http://briandolhansky.com" target="_blank">
       <div class="authorphoto"><img src="https://static1.squarespace.com/static/51d342a0e4b0290bcc56387d/t/5a25a353e2c48393e585aae9/1512416083021/me.jpg"></div>
