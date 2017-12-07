@@ -1,5 +1,5 @@
  <div class="banner_photo center">
- <div style="background-image:url('https://raw.githubusercontent.com/bdol/exemplar_gans/master/img/celeb_banner.png'); ?>);"
+ <div style="background-image:url('https://raw.githubusercontent.com/bdol/exemplar_gans/master/img/celeb_banner.png'); ?>);">
  </div>
 
 <br><br>
