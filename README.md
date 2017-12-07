@@ -7,13 +7,13 @@
 <div style="text-align:center">
 <div class="author">
     <a href="http://briandolhansky.com" target="_blank">
-      <div class="authorphoto"><img src="https://static1.squarespace.com/static/51d342a0e4b0290bcc56387d/t/5a25a353e2c48393e585aae9/1512416083021/me.jpg"></div>
+      <div class="authorphoto"><img  width=200 src="https://static1.squarespace.com/static/51d342a0e4b0290bcc56387d/t/5a25a353e2c48393e585aae9/1512416083021/me.jpg"></div>
       <div>Brian Dolhansky</div>
     </a>
 </div>
 <div class="author">
     <a href="https://cristiancanton.github.io/)" target="_blank">
-      <div class="authorphoto"><img src="https://raw.githubusercontent.com/bdol/exemplar_gans/master/img/CristianCara315x315.jpg"></div>
+      <div class="authorphoto"><img width=200 src="https://raw.githubusercontent.com/bdol/exemplar_gans/master/img/CristianCara315x315.jpg"></div>
       <div>Cristian Canton Ferrer</div>
     </a>
 </div>
