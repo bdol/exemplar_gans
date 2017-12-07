@@ -4,7 +4,6 @@
  <img src="https://raw.githubusercontent.com/bdol/exemplar_gans/master/img/celeb_banner.png">
 </center>
 </div>
-<br><br>
 
 ## Authors
 <div style="text-align:center">
