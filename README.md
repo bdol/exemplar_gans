@@ -1,5 +1,8 @@
- <div class="banner_img center">
-<div style="background-image:url('https://raw.githubusercontent.com/bdol/exemplar_gans/master/img/celeb_banner.png'); ?>);"></div>
+<div class="banner_img center">
+<!--<div style="background-image:url('https://raw.githubusercontent.com/bdol/exemplar_gans/master/img/celeb_banner.png'); ?>);"></div>-->
+<center>
+ <img src="https://raw.githubusercontent.com/bdol/exemplar_gans/master/img/celeb_banner.png">
+</center>
 </div>
 
 
