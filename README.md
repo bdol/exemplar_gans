@@ -18,6 +18,8 @@
       <div>Cristian Canton Ferrer</div>
     </a>
 </div>
+</div>
+
 <div>
  <center><img src="https://raw.githubusercontent.com/bdol/exemplar_gans/master/img/facebook-logo.jpg"></center>
 <br><br>
