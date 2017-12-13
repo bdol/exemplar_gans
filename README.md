@@ -5,7 +5,6 @@
 </center>
 </div>
 
-## Authors
 <div style="text-align:center">
 <div class="author">
     <a href="http://briandolhansky.com" target="_blank">
@@ -21,6 +20,14 @@
 </div>
 </div>
  <center><img src="https://raw.githubusercontent.com/bdol/exemplar_gans/master/img/facebook-logo.jpg"></center>
+<br><br>
+
+</div>
+ <center>
+  <a href="https://arxiv.org/abs/1712.03999">
+   <img src="https://raw.githubusercontent.com/bdol/exemplar_gans/master/img/paper_screenshot.png">
+  </a><br>
+ <a href="https://arxiv.org/abs/1712.03999">View on arXiv</a></center>
 <br><br>
 
 ## Introduction
