@@ -28,6 +28,9 @@
  <a href="https://arxiv.org/abs/1712.03999">
      <img src="https://raw.githubusercontent.com/bdol/exemplar_gans/master/img/paper_screenshot.png">
   </a>
+</center>
+
+<center>
   <a href="https://arxiv.org/abs/1712.03999">View full paper on arXiv</a>
 </center>
  
