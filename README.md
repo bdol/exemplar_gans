@@ -101,6 +101,12 @@ Each celebrity identity is a top-level key in the JSON file. The value for each 
 ### Our benchmark results
 We calculated ExGAN benchmark values on the entire Celeb-ID dataset by in-painting on a given image, and using the next image in the list as the reference (and by using the first image in the list as a reference when testing on the last image). We report average L1 loss over the entire image, as well as MS-SSIM, FID, and inception scores.
 
-| L1 | MS-SSIM | FID | Inception |
-|:---:|:---:|:---:|:---:|
-|0.006537| 0.007086 | 17.791 | 3.6297 |
+| Dataset | Model type | L1 | MS-SSIM | FID | Inception |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|Internal benchmark | [Non-exemplar GAN](http://hi.cs.waseda.ac.jp/~iizuka/projects/completion/) |0.018| 5.05E-2 | 11.27 | 3.96 |
+|Internal benchmark | Reference-based ExGAN |0.014| 3.97E-2 | 7.67 | 3.82 |
+|Internal benchmark | Code-based ExGAN |0.015| 4.15E-2 | 8.49 | 3.94 |
+|Celeb ID | [Non-exemplar GAN](http://hi.cs.waseda.ac.jp/~iizuka/projects/completion/) | 7.36E-3 | 8.44E-3 | 15.30 | 3.72 |
+|Celeb ID | Reference-based ExGAN | 7.15E-3 | 7.97E-3 | 15.66 | 3.56 |
+|Celeb ID | Code-based ExGAN | 7.00E-3 | 7.80E-3 | 14.62 | 3.77 |
+
