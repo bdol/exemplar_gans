@@ -97,8 +97,8 @@ The aligned dataset will reside in `data/celeb_id_aligned`. The file `data/celeb
 
 Each celebrity identity is a top-level key in the JSON file. The value for each celebrity is a list of images containing eye locations, boxes to remove from the image with a given height and width (where the box is centered on each eye location), detector values as to whether the eyes are open or closed, and a corresponding filename.<br>
 
-Alternatively, you can download the data resulting from the execution of these two python scripts: [celeb_id_raw.zip](http://www.canton.cat/celeb_id_raw.zip) and [celeb_id_aligned.zip](http://www.canton.cat/celeb_id_aligned.zip). These two files are external and provided for long term archival purposes.
-<br><br>
+<!--Alternatively, you can download the data resulting from the execution of these two python scripts: [celeb_id_raw.zip](http://www.canton.cat/celeb_id_raw.zip) and [celeb_id_aligned.zip](http://www.canton.cat/celeb_id_aligned.zip). These two files are external and provided for long term archival purposes.
+<br><br>-->
 
 ### Our benchmark results
 We calculated ExGAN benchmark values on the entire Celeb-ID dataset by in-painting on a given image, and using the next image in the list as the reference (and by using the first image in the list as a reference when testing on the last image). We report average L1 loss over the entire image, as well as MS-SSIM, FID, and inception scores.
