@@ -99,3 +99,10 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# OS generated files
+.DS_Store
+
+# Output
+data/celeb_id_raw
+data/celeb_id_aligned
